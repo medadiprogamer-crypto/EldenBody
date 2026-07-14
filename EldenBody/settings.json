@@ -1,0 +1,83 @@
+{
+  "calibrated": false,
+  "camera_index": 0,
+  "camera_width": 640,
+  "camera_height": 480,
+  "target_fps": 60,
+  "debug_mode": true,
+  "use_head_tracking": false,
+  "use_ps4_gyro": true,
+  "calibration": {
+    "neutral_hip_y": 0.5,
+    "neutral_hip_x": 0.5,
+    "neutral_shoulder_y": 0.35,
+    "torso_angle_neutral": 0.0,
+    "right_wrist_y": 0.3,
+    "left_wrist_y": 0.3,
+    "sword_hold_angle": 0.0,
+    "walk_knee_amplitude": 0.02,
+    "walk_frequency": 1.5,
+    "run_knee_amplitude": 0.06,
+    "run_frequency": 3.0,
+    "dodge_bend_angle": 25.0,
+    "jump_hip_delta": 0.04,
+    "lean_back_angle": -15.0,
+    "strafe_threshold": 0.03
+  },
+  "movement": {
+    "stick_sensitivity": 1.0,
+    "lean_sensitivity": 1.2,
+    "strafe_sensitivity": 1.5,
+    "walk_speed_threshold": 0.015,
+    "sprint_amplitude_multiplier": 1.8,
+    "sprint_frequency_multiplier": 1.5,
+    "dodge_cooldown_ms": 800,
+    "jump_cooldown_ms": 600,
+    "stick_deadzone": 0.08
+  },
+  "combat": {
+    "light_attack_velocity": 0.8,
+    "heavy_attack_velocity": 0.4,
+    "charged_hold_time_ms": 400,
+    "charged_velocity": 1.2,
+    "thrust_velocity": 0.7,
+    "upper_slash_angle_min": 45.0,
+    "diagonal_angle_min": 30.0,
+    "attack_cooldown_ms": 350,
+    "confidence_threshold": 0.6,
+    "velocity_smoothing": 0.3
+  },
+  "left_hand": {
+    "block_palm_confidence": 0.7,
+    "cast_gesture_confidence": 0.65,
+    "flask_hold_time_ms": 500,
+    "flask_chest_distance": 0.15
+  },
+  "magic": {
+    "raise_hand_threshold": 0.1,
+    "forward_cast_velocity": 0.5,
+    "cast_cooldown_ms": 500
+  },
+  "gyro": {
+    "deadzone": 0.05,
+    "sensitivity_yaw": 1.5,
+    "sensitivity_pitch": 1.2,
+    "smoothing": 0.25,
+    "max_stick_output": 0.95,
+    "invert_pitch": true,
+    "invert_yaw": false
+  },
+  "head_tracking": {
+    "enabled": false,
+    "sensitivity_yaw": 0.8,
+    "sensitivity_pitch": 0.6,
+    "deadzone": 0.05,
+    "smoothing": 0.3,
+    "blend_with_gyro": 0.3
+  },
+  "filtering": {
+    "pose_smoothing": 0.4,
+    "hand_smoothing": 0.35,
+    "noise_threshold": 0.01
+  }
+}
